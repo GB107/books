@@ -1,0 +1,15 @@
+<%- include('partials/header.ejs') %>
+<nav>
+    <p><a href="/">Book System</a></p>
+</nav>
+    <div class="home welcome">
+        <h1 id="home-heading">Welcome to the book system!</h1>
+        
+        <div class="buttons">
+            <button class="btn1"><a href="/register">First time? Register!</a></button>
+            <button class="btn2"><a href="/login">Been here before? Login!</a></button>
+        </div>
+        <p class="success-reg"><strong><%=msg%></strong></p>
+    </div>
+
+<%- include('partials/footer.ejs') %>

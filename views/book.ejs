@@ -1,0 +1,14 @@
+<%- include("partials/header.ejs") %>
+<nav>
+    <p><a href="/">Book System</a></p>
+</nav>
+<div class="form">
+    <form action="/add" method="post">
+        <h2>Add a new Book</h2>
+        <input autocomplete="off" type="text" name="name" placeholder="Name">
+        <input autocomplete="off" type="text" name="author" placeholder="Author">
+        <button type="submit" id="reg-btn">Add!</button>
+    </form>
+</div>
+
+<%- include("partials/footer.ejs") %>

@@ -1,0 +1,14 @@
+<%- include("partials/header.ejs") %>
+<nav>
+    <p><a href="/">Book System</a></p>
+</nav>
+<div class="form">
+    <form action="/login" method="post">
+        <h2>Login</h2>
+        <input type="text" name="username" placeholder="Username">
+        <input type="password" name="password" placeholder="Password">
+        <p id="reg-para"><%=text%></p>
+        <button type="submit" class="login-btn">Login!</button>
+    </form>
+</div>
+<%- include("partials/footer.ejs") %>

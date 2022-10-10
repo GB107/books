@@ -1,0 +1,19 @@
+<%- include('partials/header.ejs') %>
+<nav>
+    <p><a href="/">Book System</a></p>
+</nav>
+<div class="welcome">
+    <h1 id="home-heading">Welcome <%=name%>!</h1>
+
+    <a href="/book">Add Book</a>
+    
+    <h3>Your Current Books:</h3>
+    <div>
+        <ul>
+            <%for(let i=0;i<books.length;i++){%>
+                <li><%=books[i].name%>, by <%=books[i].author%><form class="updateForm" action="/update" method="post"><input hidden type="text" value="<%i%>" name="index"><button class="ubtn" type="submit" name="action" value="update">Update</button><button class="ubtn" type="submit" name="action" value="delete">Delete</button></form></li>
+            <%}%>
+        </ul>
+    </div>
+</div>
+<%- include('partials/footer.ejs') %>
