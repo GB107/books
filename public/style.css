@@ -44,6 +44,7 @@ nav p a{
 }
 div.buttons{
     display: flex;
+    
 }
 div.buttons .btn1{
     height: 8vh;
@@ -115,7 +116,13 @@ form input:focus{
     box-shadow: 0 0 2px 2px #9ED2C6;
     height: 7vh;
     margin-top: 1%;
+   cursor: pointer;
 }
+
+#reg-btn{
+    cursor: pointer;
+}
+
 #reg-para{
     color: red;
     font-size: 1rem;
