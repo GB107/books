@@ -44,6 +44,7 @@ nav p a{
 }
 div.buttons{
     display: flex;
+    cursor: pointer;
 }
 div.buttons .btn1{
     height: 8vh;
@@ -54,6 +55,7 @@ div.buttons .btn1{
     background-color: #D6EFED;
     border: none;
     box-shadow: 0 0 2px 2px #9ED2C6;
+    cursor: pointer;
 }
 div.buttons .btn1:hover{
     border-radius: 5px;
@@ -69,6 +71,7 @@ div.buttons .btn2{
     background-color: #D6EFED;
     border: none;
     box-shadow: 0 0 2px 2px #9ED2C6;
+    cursor: pointer;
 }
 div.buttons .btn2:hover{
     border-radius: 5px;
@@ -77,6 +80,7 @@ div.buttons .btn2:hover{
 .btn1 a, .btn2 a{
     text-decoration: none;
     color: rgb(21, 21, 67);
+    cursor: pointer;
     
 }
 .home-container{
