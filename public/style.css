@@ -79,7 +79,7 @@ div.buttons .btn2:hover{
 }
 .btn1 a, .btn2 a{
     text-decoration: none;
-    color: rgb(21, 21, 67);
+    color: white;   
     cursor: pointer;
     
 }
