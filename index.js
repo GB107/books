@@ -27,8 +27,8 @@ app.get("/",function(req,res){
   res.render("home",{msg:""});
 });
 
-app.get("/register",function(req,res){
-    res.render("register",{text:""});
+app.get("/sign in",function(req,res){
+    res.render("sign in",{text:""});
 });
 
 app.get("/login",function(req,res){
@@ -39,7 +39,7 @@ app.get("/book",function(req,res){
     res.render("book");
 });
 
-app.post("/register",function(req,res){
+app.post("/sign in",function(req,res){
     User.findOne({username: req.body.username},function(err,doc){
         if(doc===null){
             if(req.body.password===req.body.cpassword){
