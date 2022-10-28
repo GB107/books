@@ -4,7 +4,9 @@
     padding: 0;
 }
 body{
-    color: white;
+    color: #CFE2F3;
+	font-size: 18px;
+	font-weight: bold;
     background-color: black;
 }
 nav{
